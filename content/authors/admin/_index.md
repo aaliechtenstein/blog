@@ -46,11 +46,24 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
- 
+    link: mailto:liechtensteinalina@gmail.com
+    
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=twoXnkUAAAAJ&hl=ru
+    
   - icon: github
     icon_pack: fab
     link: https://github.com/aaliechtenstein
+    
+  - icon: mendeley  
+    icon_pack: fab
+    link: https://www.mendeley.com/search/
+    
+  - icon: youtube
+    icon_pack: fab
+    link: https://youtube.com/@alinaliechtenstein
+
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
@@ -60,5 +73,5 @@ email: 'liechtensteinalina@gmail.com'
 highlight_name: true
 ---
 
-I am Lichtenstein Alina, a student of the Peoples' Friendship University. I study at the Faculty of Physics, Mathematics and Natural Sciences, majoring in Computer and Information Sciences. I have been studying foreign languages all my life and have not seen myself in anything but linguistics. However, life is a strange thing, and now I'm in a technical specialty, let's see what happens.
+My name is Alina Lichtenstein, a student of the Peoples' Friendship University. I am studying at the Faculty of Physics, Mathematics and Natural Sciences, majoring in Computer and Information Sciences. Before that, I had been studying foreign languages all my life and did not see myself in anything but linguistics. However, life is a strange thing, and now I'm in a technical specialty, let's see what happens.
 {style="text-align: justify;"}

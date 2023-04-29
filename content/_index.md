@@ -46,18 +46,18 @@ sections:
     content:
       title: Skills
       items:
-        - name: R
+        - name: English
           description: 90%
-          icon: r-project
+          icon: 
           icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
+        - name: Java
+          description: 30%
+          icon: 
+          icon_pack: fab
         - name: Photography
-          description: 10%
-          icon: camera-retro
-          icon_pack: fas
+          description: 70%
+          icon: 
+          icon_pack: 
   - block: experience
     content:
       title: Experience
@@ -70,12 +70,9 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
+        - title: Java-developer
           location: California
-          date_start: '2021-01-01'
+          date_start: '2023-01-06'
           date_end: ''
           description: |2-
               Responsibilities include:
@@ -83,14 +80,12 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+        - title: Student of RUDN
+          
+          location: Moscow
+          date_start: '2022-09-01'
+          date_end: '2026-08-31'
+          description: Computer science
     design:
       columns: '2'
   - block: accomplishments
@@ -106,30 +101,15 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
+        - certificate_url: https://stepik.org/cert/1583898
+          date_end: '2022-08-25'
+          date_start: '2022-06-01'
           description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+          organization: Stepik
+          organization_url: https://welcome.stepik.org/ru?ysclid=lg7mdnse6l703552131
+          title: Python course for beginners
+
+        
     design:
       columns: '2'
   - block: collection
