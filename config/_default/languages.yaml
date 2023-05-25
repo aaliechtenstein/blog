@@ -5,18 +5,53 @@
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  title: Liechtenstein Alina
+  params:
+    description: site of Alina Liechtenstein
+  menu:
+    - name: About 
+      url: '#about'
+      weight: 1
+    - name: Posts
+      url: '#posts'
+      weight: 2
+    - name: Projects
+      url: '#projects'
+      weight: 3
+    - name: Publications
+      url: '#featured'
+      weight: 4
+    - name: Talks
+      url: '#talks'
+      weight: 5
+    - name: Contact
+      url: '#contact'
+      weight: 6
+      
+  ru:
+  languageCode: ru-ru
+  contentDir: content/ru
+  title: Liechtenstein Alina
+  params:
+    description: Сайт Алины Лихтенштейн
+  menu:
+    - name: Обо мне 
+      url: '#about'
+      weight: 1
+    - name: Статьи
+      url: '#posts'
+      weight: 2
+    - name: Проекты
+      url: '#projects'
+      weight: 3
+    - name: Публикации
+      url: '#featured'
+      weight: 4
+    - name: Выступления
+      url: '#talks'
+      weight: 5
+    - name: Контакты
+      url: '#contact'
+      weight: 6
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1

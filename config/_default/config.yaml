@@ -3,17 +3,22 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
+title: Liechtenstein Alina # Website name
 baseURL: 'https://example.com/' # Website URL
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
-removePathAccents: true
+defaultContentLanguage: "en"
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+  ru:
+    languageName: "Русский"
+    weight: 2
+    defaultContentLanguage: "ru"
 
 ############################
 ## MODULES

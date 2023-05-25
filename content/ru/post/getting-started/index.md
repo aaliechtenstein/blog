@@ -1,9 +1,8 @@
 ---
-title: Welcome, this is a post about the past week from 08/04/2023
-subtitle: Welcome 👋 Today we will learn how to use the emacs text editor.
-
+title: Добро пожаловать, это пост о прошедшей неделе от 23.05.2023
+subtitle: Добро пожаловать 👋 Сегодня мы узнаем, как пользоваться текстовым редактором emacs.
 # Summary for listings and search engines
-summary: Welcome 👋 Today we will learn how to use the emacs text editor.
+summary: Добро пожаловать 👋 Сегодня мы узнаем, как пользоваться текстовым редактором emacs.
 
 # Link this post with a project
 projects: []
@@ -40,11 +39,6 @@ categories:
   - Demo
 
 ---
-
-```python
-import libr
-print('hello')
-```
 
 ### Основные термины Emacs
 **Определение 1.** Буфер — объект, представляющий какой-либо текст.
